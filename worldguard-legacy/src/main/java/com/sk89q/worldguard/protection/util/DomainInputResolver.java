@@ -113,6 +113,7 @@ public class DomainInputResolver implements Callable<DefaultDomain> {
                             break;
                         case UUID_AND_NAME:
                             domain.addPlayer(s);
+                            break;
                     }
                 }
             }
